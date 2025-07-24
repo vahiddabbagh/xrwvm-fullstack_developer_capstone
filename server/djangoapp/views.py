@@ -8,7 +8,7 @@ from django.contrib.auth import logout
 from django.contrib import messages
 from datetime import datetime
 from .models import CarMake, CarModel
-from .restapis import get_request, analyze_review_sentiments
+from .restapis import get_request
 
 from django.http import JsonResponse
 from django.contrib.auth import login, authenticate
